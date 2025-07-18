@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Payment Dashboard",
+    "slug": "payment-dashboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#667eea"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#667eea"
+      }
+    },
+    "web": {},
+    "plugins": [
+      "expo-secure-store",
+      "expo-font"
+    ]
+  }
+}
