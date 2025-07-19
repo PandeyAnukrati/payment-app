@@ -264,8 +264,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - MongoDB for the flexible database solution
 - Expo team for simplifying React Native development
 
-## 📞 Support
-
 If you have any questions or need help with setup, please create an issue in the repository.
 
 ---
