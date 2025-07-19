@@ -198,7 +198,6 @@ cd client
 
 A Postman collection is included to help you quickly test and explore the API endpoints.
 
-- File: `Payment-Dashboard-API.postman_collection.json`
 
 ### How to Use
 
@@ -208,6 +207,27 @@ A Postman collection is included to help you quickly test and explore the API en
 4. Update environment variables (like server URL) as needed for your setup.
 
 This collection covers all major endpoints and typical flows for the Payment Dashboard API.
+
+#### Endpoints Included in the Collection
+
+**Authentication**
+- `POST /auth/login`: Log in with username and password (body: `{ username, password }`). Returns JWT token.
+- `GET /auth/profile`: Get the authenticated user's profile (requires JWT in header).
+
+**Payments**
+- `GET /payments`: List all payments. Supports filters via query params (e.g., `?status=success`).
+- `GET /payments/:id`: Get details of a specific payment by ID.
+- `POST /payments`: Create a new payment (body: payment details, requires JWT).
+- `GET /payments/stats`: Get dashboard statistics (requires JWT).
+
+**Users (Admin only)**
+- `GET /users`: List all users (requires admin JWT).
+- `POST /users`: Create a new user (body: user details, requires admin JWT).
+
+**Other**
+- WebSocket requests for real-time updates (see collection for sample usage).
+
+Each request in the collection includes sample payloads, required headers, and environment variable usage for easy testing.
 ## 📦 Building for Production
 
 ### Backend
