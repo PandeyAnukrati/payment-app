@@ -172,8 +172,6 @@ The app comes with pre-seeded user accounts:
 
 ### Users (Admin only)
 
-- `GET /users` - List all users
-- `POST /users` - Create new user
 
 ## 🔄 Real-time Features
 
@@ -189,17 +187,27 @@ The app includes WebSocket integration for:
 
 ```bash
 cd server
-npm run test
-npm run test:e2e
-```
-
 ### Frontend Testing
 
 ```bash
 cd client
-npm test
 ```
 
+
+## 📬 Postman Collection
+
+A Postman collection is included to help you quickly test and explore the API endpoints.
+
+- File: `Payment-Dashboard-API.postman_collection.json`
+
+### How to Use
+
+1. Open [Postman](https://www.postman.com/downloads/).
+2. Click `Import` and select `Payment-Dashboard-API.postman_collection.json` from the project root.
+3. Use the pre-configured requests to test authentication, payments, users, and more.
+4. Update environment variables (like server URL) as needed for your setup.
+
+This collection covers all major endpoints and typical flows for the Payment Dashboard API.
 ## 📦 Building for Production
 
 ### Backend
