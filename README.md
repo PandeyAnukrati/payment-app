@@ -273,9 +273,7 @@ Update API URLs in:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -284,8 +282,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - MongoDB for the flexible database solution
 - Expo team for simplifying React Native development
 
-If you have any questions or need help with setup, please create an issue in the repository.
 
----
+
+
 
 **Happy Coding! 🚀**
