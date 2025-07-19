@@ -34,9 +34,7 @@ A secure, mobile-first Payment Management Dashboard built with React Native & Ne
 | Real-time        | WebSockets             |
 | State Management | React Hooks            |
 
-## 📱 Screenshots
 
-_Add screenshots of your app here_
 
 ## 🏗 Project Structure
 
